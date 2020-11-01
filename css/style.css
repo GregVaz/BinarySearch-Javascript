@@ -1,0 +1,20 @@
+/* General */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.number-box {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.number-box:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.form-control:disabled {
+    background-color: white;
+}
