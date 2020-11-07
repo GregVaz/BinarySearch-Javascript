@@ -1,6 +1,7 @@
 /* General */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 40px;
 }
 
 .number-box {
@@ -17,4 +18,9 @@ body {
 
 .form-control:disabled {
     background-color: white;
+}
+
+#box-manual, #box-lineal, #box-binary {
+    max-height: 200px;
+    overflow: hidden;
 }
